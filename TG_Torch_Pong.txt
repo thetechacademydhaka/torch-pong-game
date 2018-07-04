@@ -1,0 +1,27 @@
+
+-Change the variable “distance” to “gap” accordingly in the code. In which variable are we eventually saving this value in? 
+-What’s happening in the line “int data = int(distance)”? Can you guess?
+-Increase the size of the bat by adding 50 pixels to its width… find out what’s wrong!
+-Decrease size of the ball by 5 pixels.
+
+-Change the angle at which the ball is moving when it is falling. Make the fall steeper than it is.
+-Change the code in a way that the radius of the ball can move into the wall(top, left and right) before bouncing back  .  
+-Reverse the way the bat moves, i.e. make it move to the left by default, and to the right when light is shown.
+-Which part of the code is stopping the bat to move out of the screen? What if we wanted it to move out of the screen? What should we do  ?
+-Find out the part in the code where you can control this game using your keyboard instead of Arduino.
+-Comment out the parts where movement of the bat relies on Arduino as you don’t need it anymore.
+
+-How is the ball bouncing back from the bat? Keep the width of the bat same, but make the ball bounce back from the bat even if it is 100 pixels away from the bat horizontally, as if there were a force fields on the left and right sides of the bat .
+-What if we wanted to shorten this distance and make the ball bounce back from the bat when it is hitting the center?
+-Try changing the speed at which the bat is moving too.
+-Increase the gain in point by 200 instead of 100 when the ball hits the bat.
+
+-Display the total score after the game ends.
+-Add the functionality to show Highest Score ever scored. Change the Highest Score, when a new Highest Score is made.
+
+
+-Change all occurrences of the variable “gamestate” to “levels   ”
+-Add “Lives” for the user in the game. Show the “Game Over” screen after 3 tries.
+-Make the restart time longer
+-Identify which part of the code is being used as input from Arduino.
+-‘To Plaan’ to be able to write the code from scratch
